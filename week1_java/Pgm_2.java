@@ -1,3 +1,4 @@
+//
 import java.util.Scanner;
 
 class Pgm_2
