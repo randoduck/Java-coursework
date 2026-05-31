@@ -1,0 +1,20 @@
+// create three folders :
+your_project/
+├── department/               <-- Package 1
+│   ├── Department.java
+│   └── Course.java
+├── subject/                  <-- Package 2
+│   └── Subject.java
+└── demo/                     <-- Package 3
+    └── ProtectedAndPublicDemo.java
+
+
+//to compile this : (from your_project)
+javac department/*.java subject/*.java demo/*.java
+
+
+//keep in mind the asterisk is to compile all the file sin the folder 
+
+
+//to run the program with the main : 
+java demo.ProtectedAndPublicDemo
